@@ -10,21 +10,23 @@ A full-stack application written in Go and React, where users can upload videos 
 2. navigate to server directory and install necessary dependencies using
 `go get -d ./...`
 
-3. start server by typing `go run server.go`
+3. build server file by typing `go build server.go`
 
-4. by default the server runs on localhost:8888
+4. start server executable
+
+5. by default, the server runs on localhost:8888
 
 There is also a websocket communication between the server and client, which runs on localhost:5000
 
 ### Client Side
 
-5. navigate to client directory
+6. navigate to client directory
 
-6. run `npm install`
+7. run `npm install`
 
-7. run `npm start`
+8. run `npm start`
 
-8. navigate to localhost:3000
+9. navigate to localhost:3000
 
 ## Usage
 
