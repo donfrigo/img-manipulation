@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+
+h2, h3 {
+  color: #000;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background-color: #F7F7F7;
+}
+
+div#app {
+  width: 500px;
+}
+
+.filepicker.dropzone .dz-preview.dz-image-preview {
+  background: none;
+}
+
+.filepicker.dropzone .dz-preview.dz-image-preview .dz-image {
+  border-radius: 5px;
+}
