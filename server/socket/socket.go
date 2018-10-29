@@ -9,8 +9,15 @@ import (
 var Clients = make(map[string]socketio.Socket)
 
 func Broadcast(client string, msgType string, msg string) {
-	err := Clients[client].Emit(msgType, msg)
-	if err != nil {
-		log.Println("Error occurred during sending message through websocket:", err)
+
+	if client, ok := Clients[client]; ok {
+		err := client.Emit(msgType, msg)
+		if err != nil {
+			log.Println("Error occurred during sending message through websocket:", err)
+		}
+	} else {
+		log.Println("Error occurred during sending message through websocket: client not found")
 	}
+
 }
+
