@@ -4,7 +4,7 @@ A full-stack application written in Go and React, where users can upload videos 
 
 ## Installation
 
-1. Git clone this repo to your Go workspace
+1. Git clone this repo
 
 ### Server side
 2. navigate to server directory and install necessary dependencies using
