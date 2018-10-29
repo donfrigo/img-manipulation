@@ -1,4 +1,4 @@
-#IMG Manipulation
+# IMG Manipulation
 
 A full-stack application written in Go and React, where users can upload videos and the server splits it up to individual frames and converts the pictures to greyscale.
 
